@@ -1,0 +1,38 @@
+#input-field,
+#input-field:focus, 
+#unit-conversion,
+#unit-conversion:focus,
+#output-field,
+#output-field:focus,
+#calc-input,
+#calc-input:focus {
+  background: black !important;
+  color: #ffc107 !important;
+}
+#conversion-wrap form {
+  width: 550px;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: 2.25fr 1.5fr 2.25fr;
+  grid-column-gap: 10px;
+}
+
+@media screen and (max-width: 600px){
+  #conversion-wrap form {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 475px){
+  #conversion-wrap form {
+    display: block;
+  }
+  #conversion-wrap form input,
+  #conversion-wrap form select {
+    display: block;
+  }
+  #conversion-wrap form input:first-of-type,
+  #conversion-wrap form select {
+    margin-bottom: 0.5rem;
+  }
+}

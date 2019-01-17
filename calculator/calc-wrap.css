@@ -1,0 +1,50 @@
+#calculator-whole {
+	width: 550px;
+	height: auto;
+	min-height: 200px;
+	max-width: 90%;
+	margin: auto;
+}
+#calc-input {
+	font-size: 1.3rem;
+}
+#rad-deg-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 10px;
+}
+#rad-deg-grid button {
+	position: relative;
+	cursor: pointer;
+}
+#rad-deg-grid button:hover {
+	background: #ffc107 !important;
+	color: black !important;
+}
+.quad-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 10px;
+}
+.quad-grid button {
+	cursor: pointer;
+}
+.quad-grid button:hover {
+	background: #ffc107 !important;
+	color: black !important;
+}
+#sig-fig-field {
+	width: 100%;
+}
+.rad-indicator,
+.deg-indicator {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	border-radius: 50%;
+}
+.active-indicator {
+	background: #00ff00 !important;
+}

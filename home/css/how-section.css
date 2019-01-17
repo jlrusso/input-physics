@@ -1,0 +1,24 @@
+#how-section {
+	width: 100%;
+	height: auto;
+}
+@media screen and (max-width: 992px) {
+	.content-box p {
+		padding: 0 150px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.content-box p {
+		padding: 0 80px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.content-box p {
+		padding: 0 30px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.content-box p {
+		padding: 0;
+	}
+}

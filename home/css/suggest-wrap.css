@@ -1,0 +1,99 @@
+#suggest-wrap form {
+	width: 550px;
+	max-width: 90%;
+}
+#suggest-wrap select {
+	border-radius: 0.25rem 0.25rem 0 0 !important;
+}
+#suggest-wrap select,
+#suggest-wrap select:focus {
+	background: black !important;
+	color: #ffc107 !important;
+}
+#suggest-wrap option {
+	color: #ffc107 !important;
+}
+#suggest-wrap [type='submit'] {
+	border-radius: 0 0 0.25rem 0.25rem !important;
+	cursor: pointer;
+}
+#suggest-wrap [type='submit']:hover {
+	background: #ffc107 !important;
+	color: black !important;
+	border-top: 0 !important;
+}
+/* #suggestions-container {
+	width:100%;
+	height:auto;
+	position: relative;
+	background-color: var(--main-yellow-color);
+	padding:0 50px 50px;
+	text-align: center;
+}
+#suggestions-container h2 {
+  margin: 0 auto 10px;
+  text-align: center;
+  padding: 20px 0 10px;
+	font-weight: bold;
+}
+.dropdown-btn {
+	width: 500px;
+	max-width: 90%;
+	padding: 20px;
+	background-color: var(--main-black-color);
+	color: var(--main-yellow-color);
+	font-weight: bold;
+	text-align: center;
+	border-radius: 4px 4px 0 0;
+	transition: 0.4s;
+	margin: auto;
+}
+#suggestions-container form {
+	width: 500px;
+	max-width: 90%;
+	margin: auto;
+}
+#suggestions-container select {
+	width: 100%;
+	height: 50px;
+	border: 2px solid var(--main-black-color);
+	border-radius: 0 0 4px 4px;
+	background: transparent;
+	font-weight: bold;
+}
+#suggestions-container select:focus {
+	outline: none;
+}
+#suggestions-container option {
+	background-color: transparent;
+	color: var(--main-black-color);
+	font-weight: bold;
+	text-align: center;
+}
+#suggestions-container label {
+	display: block;
+	padding: 15px;
+	width: 100%;
+	margin: auto;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.toggle-label {
+	background: var(--main-black-color) !important;
+	color: var(--main-yellow-color) !important;
+}
+#suggestions-container li:not(:last-child){
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+#suggestions-container [type='submit'] {
+	display: block;
+	width: 100px;
+	margin: 10px auto;
+	border: none;
+	border-radius: 4px;
+	background: var(--main-black-color);
+	padding: 15px;
+	font-weight: bold;
+	color: var(--main-yellow-color);
+	transition: 0.4s;
+} */
