@@ -73,11 +73,11 @@
 			<div class="banner-overlay"></div>
 			<div class="text-center" id="banner-content">
 				<h1 class="display-5 text-warning">Find Physics Solutions</h1>
-				<div class="top-bar bg-warning rounded my-4"></div>
+				<div class="top-bar bg-warning rounded my-4 divider"></div>
 				<p class="text-light text-center mx-auto lh-30">
 					With Input Physics you can find examples for various types of physics problems, tailored calculators to solve them, and step by step solutions.
 				</p>
-				<div class="text-center my-5">
+				<div class="text-center my-5 banner-btn-wrap">
 					<button type="button" class="btn btn-warning px-5" id="get-started-btn">Get Started</button>
 				</div>
 			</div>
